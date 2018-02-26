@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500|Roboto");
+body {
+  font: 100% Roboto, sans-serif;
+  color: #333; }
+
+h1, h2, h3, h4, h5 {
+  font: 100% Oswald, sans-serif; }
+
+h1 {
+  font-size: xx-large; }
+
+/*# sourceMappingURL=main.css.map */

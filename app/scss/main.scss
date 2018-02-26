@@ -1,0 +1,19 @@
+$font-bold: Oswald, sans-serif;
+$font-stack:    Roboto, sans-serif;
+
+$primary-color: #333;
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500|Roboto');
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1,h2,h3,h4,h5 {
+    font: 100% $font-bold;
+}
+
+h1 {
+    font-size: xx-large;
+}
