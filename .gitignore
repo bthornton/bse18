@@ -1,2 +1,3 @@
-ass-cache/
+.sass-cache/
 *.css.map
+*.js.map

@@ -1,13 +1,72 @@
 $font-bold: Oswald, sans-serif;
 $font-stack:    Roboto, sans-serif;
 
+$accent-color:  #659df7;
+
 $primary-color: #333;
+
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:500|Roboto');
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  background-image: url('../img/home_01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lead {
+    color: orangered;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: rgba(255,255,255,0.4);
+    color: #000;
+    text-transform: uppercase;
+}
+
+#bselogo {
+    height:150px;
+    overflow: hidden;
+}
+
+.accent-underline {
+    color: $accent-color;
+    border-bottom: 3px solid #FFF;
+}
+
+#foot {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+    padding: 15px 0 0 0;
+}
+
+#foot ul {
+    list-style-type: none;
+    color: #DEDEDE;
+    margin: 110px 0 0 0;
+}
+
+#foot ul li {
+    display: inline;
+    margin: auto 0;
+}
+
+#foot ul li::after {
+    content: "•";
+    margin: 5px;
+}
+
+#foot ul li:last-child::after {
+    content: "";
+}
+
+#foot * a {
+    color: $accent-color;
+    text-decoration: none;
+    border-bottom: 3px solid $accent-color;
 }
 
 h1,h2,h3,h4,h5 {
@@ -16,4 +75,12 @@ h1,h2,h3,h4,h5 {
 
 h1 {
     font-size: xx-large;
+    margin-bottom: 0;
 }
+
+/* 
+div#main1 {
+    min-height: 100%;
+    height: 100vh;
+}
+*/
